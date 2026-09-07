@@ -1,0 +1,17 @@
+# Virtual Environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Secrets & Environment Variables
+.env
+
+# Vector store cache & temporary files
+data/vectorstore/
+data/pdfs/
+data/raw_scrapes/
+.temp/
+
+# Streamlit config/cache
+.streamlit/
